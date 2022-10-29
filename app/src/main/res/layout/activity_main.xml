@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCFC"
+    android:backgroundTint="#EAE7E7"
+    android:foregroundTint="#ACAAAA"
+    tools:context=".RelatiLay">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_here" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-65dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/textView"
+        android:autofillHints=""
+        android:background="#FF0000"
+        android:backgroundTint="#FF0000"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtNombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="-64dp"
+        android:backgroundTint="#ACABAB"
+        android:text="@string/cancel"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtNombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="-64dp"
+        android:backgroundTint="#ACABAB"
+        android:text="@string/ok"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>
